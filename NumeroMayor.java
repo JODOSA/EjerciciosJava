@@ -9,6 +9,13 @@ public class NumeroMayor {
         Integer num3 = reader.nextInt();
 
         System.out.println();
+
+        ordenarMayor(num1, num2, num3);
+        
+        reader.close();
+    }
+
+    private static void ordenarMayor (Integer num1, Integer num2, Integer num3) {
         if (num1 > num2) {
             if (num1 > num3) {
                 System.out.println(num1);
@@ -40,6 +47,6 @@ public class NumeroMayor {
                 System.out.println(num1);
             }
         }
-        reader.close();
     }
+
 }

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class NumeroMayor {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
-        System.out.println("Introduzca tres números: ");
+        System.out.println("Introduzca los tres números: ");
         Integer num1 = reader.nextInt();
         Integer num2 = reader.nextInt();
         Integer num3 = reader.nextInt();
